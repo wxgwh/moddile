@@ -1,0 +1,200 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* font-size: 0.16rem; */
+    /* line-height: 0.16rem; */
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 13.33333vw;
+}
+.top{
+    width: 7.04rem;
+    height: 0.36rem;
+    /* border: 1px solid red; */
+    margin: 0.3rem auto 0;
+    display: flex;
+    /* font-size: 0.14rem; */
+    justify-content: space-between;
+    transition: height .5s ease;
+    overflow: hidden;
+}
+.close-box{
+    width: 0.36rem;
+    height: 0.36rem;
+    position: relative;
+}
+.close-one{
+    width: 0.45rem;
+    height: 0.03rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #000;
+    transform: rotate(45deg);
+    transition: transform 1s ease;
+}
+.close-two{
+    width: 0.45rem;
+    height: 0.03rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #000;
+    transform: rotate(-45deg);
+    transition: transform 1s ease;
+}
+.menu-box{
+    width: 0.36rem;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.menu-box div{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 50%;
+    background: #000;
+}
+
+nav{
+    margin: auto;
+    margin-top: 0.4rem;
+    width: 7.04rem;
+    height: 0.4rem;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    position: relative;
+}
+.nav-box{
+    width: 13rem;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nav-box a{
+    font-size: 0.24rem;
+    width: 1rem;
+    height: 100%;
+    float: left;
+    margin-right: 1rem;
+    color: #333333;
+    line-height: 0.4rem;
+    text-decoration: none;
+}
+.nav-box a:last-child{
+    margin-right: 0;
+}
+.swiper-container {
+    width: 7.5rem;
+    height: 3.84rem;
+    margin-top: 0.26rem;
+}  
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.shop-box{
+    width: 100%;
+    background: #f6f6f6;
+    float: left;
+}
+.xinpinlogo{
+    width: 1.48rem;
+    height: 0.91rem;
+    display: block;
+    margin: auto;
+    margin-top: 0.79rem;
+}
+.list-box{
+    margin-top: 0.58rem;
+    width: 100%;
+    height: 5.11rem;
+    position: relative;
+    overflow: hidden;
+}
+.shop-list{
+    width: 13.32rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.shop-list li{
+    width: 3.09rem;
+    height: 5.11rem;
+    margin-left: 0.24rem;
+    background: #fff;
+    float: left;
+}
+.shop-list li img{
+    width: 100%;
+    height: 2.89rem;
+    display: block;
+}
+.juxing{
+    width: 0.27rem;
+    height: 0.01rem;
+    margin-left: 0.17rem;
+    margin-top: 0.2rem;
+    background: #333333;
+}
+.verfo-lab{
+    margin-left: 0.17rem;
+    margin-top: 0.09rem;
+    width: 1.38rem;
+    height: 0.14rem;
+    font-family: "ArialNarrow";
+	font-size: 0.18rem;
+	line-height: 0.14rem;
+	letter-spacing: 0.01rem;
+	color: #000000;
+}
+.text-style-1{
+    margin-left: 0.17rem;
+    margin-top: 0.1rem;
+    font-family: "MicrosoftYaHei";
+	font-size: 0.24rem;
+	letter-spacing: 0.01rem;
+	color: #000000;
+}
+.price-box{
+    margin-top: 0.79rem;
+    width: 100%;
+    height: 0.43rem;
+    align-items: center;
+}
+.price-box img{
+    width: 0.79rem !important;
+    height: 0.21rem !important;
+    margin-left: 0.18rem;
+    float: left;
+    margin-top: 0.12rem;
+}
+.bug-box{
+    display: inline-block;
+    border-radius: 0.04rem;
+    float: left;
+    width: 1.52rem;
+    height: 100%;
+    margin-left: 0.37rem;
+    background: #ffcb3f;
+}
+.bug-box .tianjia{
+    width: 0.17rem !important;
+    height: 0.17rem !important;
+    margin-left: 0.16rem;
+    margin-top: 0.14rem;
+}
+.bug-box .buy-btn{
+    width: 0.89rem;
+    height: 0.22rem;
+    margin-left: 0.13rem;
+    margin-top: 0.11rem;
+}
