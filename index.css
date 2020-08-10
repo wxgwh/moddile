@@ -198,3 +198,198 @@ nav{
     margin-left: 0.13rem;
     margin-top: 0.11rem;
 }
+/* 热销 */
+.rexiaologo{
+    width: 1.48rem;
+    height: 0.91rem;
+    display: block;
+    margin: auto;
+    margin-top: 0.79rem;
+}
+.rexiaochanpin{
+    width: 6.99rem;
+    height: 6.93rem;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 0.75rem;
+    position: relative;
+}
+.rexiaochanpin .rexiaobig{
+    width: 6.25rem;
+    height: 2.62rem;
+    position: absolute;
+    left: 0.37rem;
+    top: 1.11rem;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+.rexiaotitle{
+    position: absolute;
+    top: 4.32rem;
+    left: 0.6rem;
+    font-family: "MicrosoftYaHei-Bold";
+    width: 2.68rem;
+    height: 0.31rem;
+    font-size: 0.31rem;
+    letter-spacing: 0.01rem;
+    line-height: 0.31rem;
+}
+.rexiaojieshao{
+    position: absolute;
+    top: 4.77rem;
+    left: 0.6rem;
+    font-size: 0.2rem;
+    letter-spacing: 0.01rem;
+    width: 4.6rem;
+    height: 0.21rem;
+    line-height: 0.2rem;
+}
+.rexiaopice{
+    position: absolute;
+    top: 5.95rem;
+    left: 0.63rem;
+    width: 1.15rem;
+    height: 0.49rem;
+}
+.colorbtns{
+    position: absolute;
+    right: 0.78rem;
+    bottom: 1.11rem;
+    width: 0.21rem;
+    height: 1.11rem;
+    /* background: #000; */
+}
+.colorbtns li{
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 0.26rem;
+}
+.colorbtns li:nth-child(1){
+    background: #abe3e6;
+}
+.colorbtns li:nth-child(2){
+    width: 0.21rem;
+    height: 0.21rem;
+    background: #cecdca;
+}
+.colorbtns li:nth-child(3){  
+    background: #ffcb3f;
+}
+.jiazai{
+    display: block;
+    margin-top: 0.38rem;
+    margin-left: 1.86rem;
+    width: 3.85rem;
+    height: 0.19rem;
+}
+/* 案例展示 */
+.anlilogo{
+    display: block;
+    width: 1.48rem;
+    height: 0.91rem;
+    margin: 0 auto;
+    margin-top: 0.73rem;
+}
+.anliitem{
+    margin: 0 auto;
+    margin-top: 0.65rem;
+    width: 7.02rem;
+    height: 4.38rem;
+    position: relative;
+}
+.anliitem img{
+    width: 100%;
+    height: 100%;
+}
+.anliitem .bofangbtn{
+    width: 1.28rem;
+    height: 1.31rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.anliitemtitle{
+    width: 3.4rem;
+    height: 0.26rem;
+    margin-top: 0.41rem;
+    margin-left: 2.06rem;
+    font-size: 0.28rem;
+    line-height: 0.44rem;
+    color: #000000;
+}
+.anliitemjieshao{
+    width: 6.6rem;
+    height: 1.68rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    color: #000000;
+    text-align: center;
+}
+.lijie{
+    margin: 0 auto;
+    margin-top: 0.34rem;
+    width: 1.4rem;
+    height: 0.6rem;
+    border: 0.01rem solid #fbca4a;
+    border-radius: 0.3rem;
+    font-size: 0.18rem;
+    line-height: 0.6rem;
+    color: #000000;
+    text-align: center;
+}
+/* 品牌故事 */
+.gushilogo{
+    width: 2.22rem;
+    height: 0.91rem;
+    margin: 0 auto;
+    margin-top: 0.71rem;
+    display: block;
+}
+.gushineirong{
+    width: 7.5rem;
+    height: 3.34rem;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0.57rem;
+    margin-bottom: 0.98rem;
+}
+.gushineirong img{
+    width: 100%;
+    height: 100%;
+}
+.gushineirong .pinpaigushi{
+    width: 5.22rem;
+    height: 1.98rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/* 底部 */
+.table{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.98rem;
+    background: #fff;
+    z-index: 100;
+}
+.table li img{
+    display: block;
+    width: 0.62rem;
+    height: 0.79rem;
+    margin: 0 0.62rem;   
+    margin-top: 0.12rem;
+    float: left;
+}

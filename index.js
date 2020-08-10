@@ -66,6 +66,23 @@ $(function(){
             left:rights
         })
     })
+
+
+    var btns=document.querySelectorAll(".colorbtns li");
+    var imgs=document.querySelectorAll(".rexiaochanpin .rexiaobig");
+    for(let i=0;i<btns.length;i++){
+        btns[i].onclick=function(){
+            for(let j=0;j<btns.length;j++){
+                btns[j].style.width="0.16rem";
+                btns[j].style.height="0.16rem";
+                imgs[j].style.opacity=0;
+            }
+            setTimeout(function(){
+                imgs[i].style.opacity=1;
+            },1000);
+            $(this).css({"width":"0.21rem","height":"0.21rem"})
+        }
+    }
 })
 
   
